@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phishing Awareness Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+        }
+        h1 {
+            color: #d9534f;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #333;
+            font-size: 1.1em;
+            margin-top: 0;
+        }
+        .tip {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+    </style>
 </head>
-<body style="font-family: Arial, sans-serif; text-align: center; padding-top: 20vh;">
-    <h1 style="color: red;">You Failed the Test</h1>
-    <p>This was a phishing awareness test. Always verify links and email sources before clicking.</p>
+<body>
+    <div class="container">
+        <h1>You Failed the Test</h1>
+        <p>This was a phishing awareness test. Always verify links and email sources before clicking.</p>
+        <p class="tip">Tip: Hover over links to see the actual URL, and check for unexpected sender addresses.</p>
+    </div>
 </body>
 </html>
